@@ -1,3 +1,4 @@
+add_subdirectory(stubdata)
 add_subdirectory(data)
 add_subdirectory(common)
 add_subdirectory(i18n)

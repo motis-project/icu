@@ -8,7 +8,7 @@ add_executable(genccode
 
 target_include_directories(genccode PRIVATE ../tools/toolutil/)
 
-target_link_libraries(genccode PRIVATE icuuc)
+target_link_libraries(genccode PRIVATE icuuc icustubdata)
 target_compile_definitions(genccode PRIVATE U_TOOLUTIL_IMPLEMENTATION)
 
 # Update from icu4c-79.1-data-bin-l.zip at https://github.com/unicode-org/icu/releases/
